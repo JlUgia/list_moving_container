@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="container_effects_preference"
+        android:title="@string/pref_title_enable_container_fx"
+        android:summary="@string/pref_summary_enable_container_fx" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="container_parallax_preference"
+        android:title="@string/pref_title_enable_parallax" />
+    
+    <Preference 
+        android:title="@string/pref_go"
+        android:key="pref_go"/>
+
+</PreferenceScreen>
