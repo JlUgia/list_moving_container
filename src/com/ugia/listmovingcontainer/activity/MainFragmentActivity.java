@@ -54,8 +54,9 @@ public class MainFragmentActivity extends FragmentActivity {
 
     /**
      * Adds a new element to the set of the data and makes sure the adapter is refreshed
-     *
-     * @param  v  View from which the method was called (Button)
+     * 
+     * @param v
+     *            View from which the method was called (Button)
      */
     public void addElement(View v) {
         if (mBottomListMovingContainer != null) {
